@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif;
+    color: white;
+    background-image: linear-gradient(to bottom, black, orange);
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+    padding: 5px;
+}
+
+.link-header {
+    color: orange;
+    text-shadow: rgb(66, 18, 0) 3px 3px;
+    text-decoration: none;
+    transition: 2s;
+}
+
+.link-header:hover {
+    color: snow;
+    text-shadow: 0px 0px;
+    transition: 2s;
+}
+
+nav {
+    padding: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.link-nav {
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+    color: orangered;
+    transition: 3s;
+}
+
+.link-nav:hover {
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+    color: orange;
+    text-shadow: rgb(66, 18, 0) 4px 4px;
+    transition: 2s;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-decoration: wavy underline;
+    text-decoration-color: orange;
+    transition: 1s;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.text-big {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-align: center;
+}
+
+span {
+    background-color: black;
+    color: orange;
+    padding: 5px;
+    border: 1px ridge white;
+}
+
+ul {
+    font-size: 18px;
+    list-style-type: circle;
+}
+
+img {
+    border: 1px solid white;
+    border-radius: 45px;
+}
+
+div {
+    background-color: black;
+    color: orange;
+    padding: 5px;
+    border: 1px ridge white;
+    text-align: center;
+    margin: 5px;
+    width: 500px;
+    height: 400px;
+}
+
+.social {
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: black 5px 5px;
+    margin-right: 10px;
+}
+
+footer img {
+    border: 2px solid white ;
+    border-radius: 50%;
+    box-shadow: black 2px 2px;
+}
+
+footer {
+    margin: 15px 0px 0px 0px;
+    padding: 15px;
+}
