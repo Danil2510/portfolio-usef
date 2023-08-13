@@ -1,107 +1,102 @@
 body {
     font-family: sans-serif;
     color: white;
-    background-image: linear-gradient(to bottom, black, orange);
+    background-color: black;
+    background-size: 100px;
+    background-image: url(https://cdn.discordapp.com/attachments/1129747764675346525/1139561527180005498/6_20230811191029.png);
 }
 
 header {
     text-align: center;
-    font-size: 30px;
     margin: 0px;
     padding: 5px;
+    pointer-events: none;
 }
 
-.link-header {
-    color: orange;
-    text-shadow: rgb(66, 18, 0) 3px 3px;
-    text-decoration: none;
-    transition: 2s;
-}
-
-.link-header:hover {
-    color: snow;
-    text-shadow: 0px 0px;
-    transition: 2s;
+.back
+{
+    opacity: 0.15;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    left: 0px;
+    right: 0px;
 }
 
 nav {
-    padding: 15px;
     text-align: center;
     margin-top: 10px;
+    font-size: x-large;
+    padding: 25px;
+    border-bottom: 1px white solid;
 }
 
 .link-nav {
     text-decoration: none;
+    padding: 25px;
     margin: 20px;
-    font-size: 20px;
-    color: orangered;
-    transition: 3s;
+    color: rgb(175, 175, 175);
+    transition: 1s;
+    border: white 1px solid;
+}
+
+.selected{
+    text-decoration: none;
+    padding: 25px;
+    margin: 20px;
+    color: rgb(175, 175, 175);
+    transition: 1s;
+    border-left: white 1px solid;
+    border-right: white 1px solid;
+    border-top: white 1px solid;
+    pointer-events: none;
+    
 }
 
 .link-nav:hover {
     text-decoration: none;
-    margin: 20px;
-    font-size: 20px;
-    color: orange;
-    text-shadow: rgb(66, 18, 0) 4px 4px;
-    transition: 2s;
+    color: white;
+    transition: 1s;
+    padding-top: 35px;
 }
 
 h1 {
     text-align: center;
     color: white;
-    text-decoration: wavy underline;
-    text-decoration-color: orange;
     transition: 1s;
     margin-top: 40px;
     margin-bottom: 30px;
+    pointer-events: none;
 }
 
-h2 {
+div
+{
     text-align: center;
+    margin-top: 90px;
 }
 
-ol {
-    font-size: 18px;
-    margin-left: 2%;
-}
-
-li {
-    margin-top: 5px;
-}
-
-div {
-    width: 350px;
+a
+{
+    margin: 65px;
+    padding: 40px;
     color: white;
-    background-image: linear-gradient(to bottom right, orangered, black);
-    padding: 10px;
-    border: white 3px dashed;
-    border-radius: 3px;
-    transition: 1s;
-    margin-left: auto;
-    margin-right: auto;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px white solid;
 }
 
-div:hover {
-    box-shadow: black -20px 20px 15px;
-    transition: 2s;
+.yt
+{
+    background-color: red;
+    border-radius: 10px;
 }
-
-.social {
-    border: 1px solid white;
-    border-radius: 50%;
-    box-shadow: black 5px 5px 5px;
-    margin-left: auto;
-    margin-right: auto;
+.ds
+{
+    background-color: blue;
+    border-radius: 10px;
 }
-
-footer img {
-    border: 2px solid white ;
-    border-radius: 50%;
-    box-shadow: black 2px 2px 2px;
-}
-
-footer {
-    margin-top: 30px;
-    display: block;
+.gh
+{
+    background-color: black;
+    border-radius: 10px;
 }
